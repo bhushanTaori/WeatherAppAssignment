@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ChingariAssignment</string>
+    <string name="enable_now">Enable Now</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="required_for_this_app">GPS required to fetch location</string>
+    <string name="location_permission_not_granted">Location permission not granted</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="current_temp">Current temp</string>
+    <string name="temp"> %s °C</string>
+    <string name="percentage"> %s percent</string>
+    <string name="speed"> %s meter/sec</string>
+    <string name="temperature">Temperature - </string>
+    <string name="humidity">Humidity - </string>
+    <string name="windSpeed">Wind Speed - </string>
+    <string name="hour">Hour - </string>
+    <string name="failed_data_load">Failed to load data %s</string>
+    <string name="no_data">No data available at the moment</string>
+</resources>

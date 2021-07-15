@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/appWidgetBackgroundColor"
+    android:padding="@dimen/widget_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.ChingariAssignment.AppWidgetContainer">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:background="?attr/appWidgetBackgroundColor"
+        android:text="@string/current_temp"
+        android:textColor="?attr/appWidgetTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:background="?attr/appWidgetBackgroundColor"
+        android:textColor="?attr/appWidgetTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>
